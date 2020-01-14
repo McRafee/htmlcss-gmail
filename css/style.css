@@ -127,3 +127,15 @@ input.checkbox {
     display: inline;
     color: #a0a0a0;
 }
+
+label.mail-d::before {
+    content: "\02605";
+}
+
+label.mail-d::after {
+    content: "...";
+}
+
+strong.mail::after {
+    content: " - ";
+}
