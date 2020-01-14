@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h1, h2, h3, p, small {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+body.background {
+    background-color: #4f4f4f;
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    background-size: 250px;
+  }
+
+div.header, div.search {
+    width: 50%;
+    margin: 25px auto;
+    padding-bottom: 5px;
+    text-align: left;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+
+}
+h1 {
+    display: inline;
+    padding-left: 10px;
+}
+
+h2 {
+    display: inline;
+}
+
+#logo-header {
+    height: 45px;
+    margin-bottom: -10px;
+}
+
+form.search {
+    margin-bottom: 20px;
+
+}
+
+#badge {
+    border: 1px solid orange;
+    background-color: orange;
+    padding:2px 0px 2px 4px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#logo-footer {
+    height: 25px;
+    margin-bottom: -8px;
+    padding-right: 10px;
+}
+
+footer {
+ margin: 10 auto;
+ text-align: center;
+}
+div.mail-d {
+    padding: 5px;
+    margin: 1px auto;
+    border: 1px solid #000000;
+    background-color: #a0a0a0;
+}
+
+#mail-s {
+    padding: 5px;
+    margin: 1px auto;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+div.mails {
+    width: 50%;
+    margin: 25px auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ffffff;
+}
+
+input.checkbox {
+    margin-left: 10px;
+    padding-right: 5px;
+    display: inline;
+    color: #a0a0a0;
+}
