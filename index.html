@@ -7,50 +7,52 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="background">
-            <header>
-                <div class="header">
-                    <img id="logo-header" src="img/logo.png" alt="Logo Gmail">
-                    <h1>Gmail</h1>
-                </div>
-                <div class="search">
-                    <form class="search" action="index.html" method="get">
-                        <input type="search" name="" value="Search">
-                        <input type="submit" name="" value="SEARCH!">
-                    </form>
-                    <h2>You have <span id="badge">30 </span>mails unread</h2>
-                </div>
-            </header>
-            <main>
-                <div class="mails">
-                    <div class="mail-d">
-                        <form class="mail-d" action="index.html">
-                            <input class="checkbox" type="checkbox" name="TEST" value="TEST">
-                            <label class=mail-d>&#9733; <strong>Oggetto della email</strong> - testo della mail...</label>
-                        </form>
+            <div class="background-layer"> <!-- background layer -->
+                <header> <!-- header -->
+                    <div class="header">
+                        <img id="logo-header" src="img/logo.png" alt="Logo Gmail">
+                        <h1>Gmail</h1>
                     </div>
-                    <div id="mail-s">
-                        <form class="mail-s" action="index.html">
-                            <input class="checkbox" type="checkbox" name="TEST" value="TEST">
-                            <label class=mail-d>&#9733; <strong>Oggetto della email</strong> - testo della mail...</label>
+                    <div class="search">
+                        <form class="search" action="index.html" method="get">
+                            <input id="search" type="search" name="mail-search" value="Search">
+                            <input id="submit" type="submit" name="mail-search" value="SEARCH!">
                         </form>
+                        <h2>You have <span id="badge">3</span> mails unread</h2>
                     </div>
-                    <div class="mail-d">
-                        <form class="mail-d" action="index.html">
-                            <input class="checkbox" type="checkbox" name="TEST" value="TEST">
-                            <label class=mail-d>&#9733; <strong>Oggetto della email</strong> - testo della mail...</label>
-                        </form>
+                </header> <!-- /header -->
+                <main> <!-- main -->
+                    <div class="mails">
+                        <section class="mail-d">
+                            <form class="mail-d" action="index.html">
+                                <input class="checkbox" type="checkbox" name="TEST" value="TEST">
+                                <label class=mail-d>&#9733; <strong>Oggetto della email</strong> - testo della mail...</label>
+                            </form>
+                        </section>
+                        <section id="mail-s">
+                            <form class="mail-s" action="index.html">
+                                <input class="checkbox" type="checkbox" name="TEST" value="TEST">
+                                <label class=mail-d>&#9733; <strong>Oggetto della email</strong> - testo della mail...</label>
+                            </form>
+                        </section>
+                        <section class="mail-d">
+                            <form class="mail-d" action="index.html">
+                                <input class="checkbox" type="checkbox" name="TEST" value="TEST">
+                                <label class=mail-d>&#9733; <strong>Oggetto della email</strong> - testo della mail...</label>
+                            </form>
+                        </section>
+                        <section class="mail-d">
+                            <form class="mail-d" action="index.html">
+                                <input class="checkbox" type="checkbox" name="TEST" value="TEST">
+                                <label class=mail-d>&#9733; <strong>Oggetto della email</strong> - testo della mail...</label>
+                            </form>
+                        </section>
                     </div>
-                    <div class="mail-d">
-                        <form class="mail-d" action="index.html">
-                            <input class="checkbox" type="checkbox" name="TEST" value="TEST">
-                            <label class=mail-d>&#9733; <strong>Oggetto della email</strong> - testo della mail...</label>
-                        </form>
-                    </div>
-                </div>
-            </main>
-            <footer>
-                <img id="logo-footer" src="img/logo.png" alt="Logo Footer">
-                <small>Gmail | Made with &hearts; by Boolean Careers | Classe #10 - Raffaele Riviello </small>
-            </footer>
+                </main> <!-- /main -->
+                <footer> <!-- footer -->
+                    <img id="logo-footer" src="img/logo.png" alt="Logo Footer">
+                    <small>Gmail | Made with &hearts; by Boolean Careers | Classe #10 - Raffaele Riviello </small>
+                </footer> <!-- /footer -->
+            </div>
     </body>
 </html>

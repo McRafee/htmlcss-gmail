@@ -11,11 +11,19 @@ h1, h2, h3, p, small {
 
 body.background {
     background-color: #4f4f4f;
-    background-image: url("../img/background.png");
+    background-image: url("../img/background.jpg");
     background-repeat: repeat;
-    background-size: 250px;
+    background-size: 25%;
+
   }
 
+div.background-layer{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+}
 div.header, div.search {
     width: 50%;
     margin: 25px auto;
@@ -24,6 +32,28 @@ div.header, div.search {
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
 
+}
+#search {
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin-right: 10px;
+    width: 25%;
+    height: 20px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+
+}
+
+#submit {
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    background-color: orange;
+    color: white;
+    width: 20%;
+    height: 20px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    vertical-align: middle;
 }
 h1 {
     display: inline;
@@ -44,12 +74,19 @@ form.search {
 
 }
 
+div.search {
+    line-height: 40px;
+}
+
 #badge {
-    border: 1px solid orange;
-    background-color: orange;
-    padding:2px 0px 2px 4px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
     border-radius: 50%;
-    margin-right: 5px;
+    background: orange;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #logo-footer {
@@ -59,10 +96,12 @@ form.search {
 }
 
 footer {
- margin: 10 auto;
+ /* margin: 10 auto; */
  text-align: center;
+ width: 50%;
+ margin: 10px auto;
 }
-div.mail-d {
+section.mail-d {
     padding: 5px;
     margin: 1px auto;
     border: 1px solid #000000;
